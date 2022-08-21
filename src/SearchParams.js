@@ -1,7 +1,7 @@
-import { useEffect, useState, useContext } from "react";
+import { useState, useEffect, useContext } from "react";
 import Results from "./Results";
-import ThemeContext from "./ThemeContext";
 import useBreedList from "./useBreedList";
+import ThemeContext from "./ThemeContext";
 
 const ANIMALS = ["bird", "cat", "dog", "rabbit", "reptile"];
 
@@ -91,8 +91,8 @@ const SearchParams = () => {
           >
             <option value="peru">Peru</option>
             <option value="darkblue">Dark Blue</option>
-            <option value="orange">Orange</option>
-            <option value="grey">Grey</option>
+            <option value="chartreuse">Chartreuse</option>
+            <option value="mediumorchid">Medium Orchid</option>
           </select>
         </label>
         <button style={{ backgroundColor: theme }}>Submit</button>
